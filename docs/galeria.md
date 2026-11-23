@@ -50,7 +50,3 @@ Los nombres solo pueden tener letras, números, espacios y puntos, porque se usa
 
 Si cambias el código del script, crea una **versión nueva** de la implementación. La dirección `/exec` sigue siendo la misma.
 
-## Pendientes
-
-- **Límite por visitante** en Vercel → Firewall para `/api/galeria`. El chequeo de origen frena a otros sitios web, pero no a un programa, que podría llenar el Drive (15 GB). Paso a paso en [vercel.md](vercel.md#3-límite-por-visitante-firewall).
-- **Borrar las imágenes a los 90 días.** La política de privacidad (sección 10) promete que las imágenes se eliminan 90 días después de subirse. Hoy el script no lo hace solo: hay que borrarlas a mano en Drive o agregar al script una tarea automática que lo haga.
